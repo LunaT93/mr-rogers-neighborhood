@@ -1,3 +1,35 @@
+# _Programming Language Selector_
+
+Just Me -- Luna.
+
+#### This program outputs a sentence of beeps, boops, and will you be my neighbors based on predetermined outcomes iterated in a forEach loop. It has a scaled image for fun.
+## Technologies Used
+
+* JavaScript
+* HTML
+* CSS
+
+## Description
+
+Not much else to say give the simplicity.
+
+## Setup/Installation Requirements
+
+* Download from github and go live in VS code. Click submit to see your sentence. Enter new numbers and it will clear the old sentence.
+
+## Known Bugs
+
+None. Untested with entering letters instead of numbers. No current error handling.
+
+## License
+
+Copyright (c) Luna Burleson 2024
+
+
+
+Test. Sorry this is so messy!
+
+
 Pseudocode:
 
 INPUT > number
@@ -220,3 +252,7 @@ numArray.forEach(function replaceWithWord(num){
         newArray.push(num);
     }
 });
+
+Other Notes: Spent FOREVER trying to print to the webpage. Important things to remember:
+- I believe onSubmit acts in place of an event listener
+- I didn't have an issue with the syntax to append to the id. My issue was with converting things to and from a string. 
